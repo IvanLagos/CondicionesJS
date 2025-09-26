@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asstes/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="imagen-cambia-color">
+      <button id="btnCambiarColor">
+        <img id="miImagen" src="./asstes/imgs/motos.png" alt="Mi Imagen" />
+      </button>
+    </section>
+
+    <hr />
+
+    <section class="seccion-de-stickers">
+      <img src="./asstes/imgs/sticker1.jpg" alt="sticker1" />
+      <img src="./asstes/imgs/sticker2.jpg" alt="sticker2" />
+      <img src="./asstes/imgs/sticker3.jpg" alt="sticker3" />
+    </section>
+
+    <section class="seccion-de-input-stickers">
+      <input id="inputSticker1" type="number" value="0" min="0" />
+      <input id="inputSticker2" type="number" value="0" min="0" />
+      <input id="inputSticker3" type="number" value="0" min="0" />
+    </section>
+
+    <section class="confirmacion-texto">
+      <button id="miBoton">Verificar</button>
+      <p id="respuestaVerificar"></p>
+    </section>
+
+    <hr />
+
+    <section class="seccion-de-password">
+      <select id="primerDigitoPassword">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select id="segundoDigitoPassword">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select id="tercerDigitoPassword">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+    </section>
+
+    <section class="textoVerificacionPassword">
+        <button id="ingresarPassword">Ingresar</button>
+        <p id="verificacionPassword"></p>
+    </section>
+
+    <script src="./asstes/js/index.js"></script>
+  </body>
+</html>

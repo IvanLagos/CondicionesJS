@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+
+.imagen-cambia-color {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.imagen-cambia-color img {
+   width: 500px;
+   height: 200px;
+}
+
+.imagen-cambia-color button {
+    width: 500px;
+    height: 200px;
+    margin-top: 1rem;
+    border-style: none;
+    background-color: white;
+}
+
+.seccion-de-stickers {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.seccion-de-stickers img {
+   width: 300px;
+   height: 300px;
+   padding-inline: 2rem;
+}
+
+.seccion-de-input-stickers {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.seccion-de-input-stickers input{
+    width: 300px;
+    margin-inline: 1.8rem;
+}
+
+.confirmacion-texto {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;   
+}
+
+.confirmacion-texto p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;        
+}
+
+.seccion-de-password {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.seccion-de-password select {
+    background-color: chocolate;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.textoVerificacionPassword {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;     
+}
+ .textoVerificacionPassword button {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 4rem;
+    background-color: dodgerblue;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+ }
+
+ .textoVerificacionPassword p {
+    padding-bottom: 4rem;
+    font-size: 40px;
+    font-weight: bold;
+ }
